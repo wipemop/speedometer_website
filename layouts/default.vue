@@ -3,7 +3,7 @@
       class="min-h-screen flex flex-col bg-cover bg-center"
   >
     <header class="bg-orange-600 bg-opacity-90 p-4 text-white text-center shadow-2xl">
-      <h1 class="text-4xl font-extrabold tracking-wider">speedometer_simple</h1>
+      <h1 class="text-4xl font-extrabold tracking-wider">Simple Speedometer</h1>
       <sub>by wipemop</sub>
       <a class="absolute right-5 top-5"
         href="https://github.com/wipemop/simple_speedometer">
