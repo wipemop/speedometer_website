@@ -5,7 +5,7 @@
     </div>
     <div v-for="(set, setName) in config.Sets" :key="setName" class="" v-else>
       <div class="flex items-center justify-between border-b-2 border-neutral-700 bg-neutral-950 px-20">
-        <input @input="updateSetName(setName, $event.target.value)" class="text-xl font-semibold border-b w-full m-2 p-2 text-white bg-orange-700 max-w-[500px]" :value="setName"
+        <input @input="updateSetName(setName, $event.target.value)" class="text-xl font-semibold border-b w-full m-2 p-2 text-white bg-neutral-700 max-w-[500px]" :value="setName"
         placeholder="Set name">
         <div>
           <button @click="removeSet(setName)" class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-400 mr-2">🗑</button>
@@ -16,36 +16,36 @@
 
       <div v-if="expanded === set" class="bg-neutral-900 p-5">
         <h3 class="mt-4 font-semibold text-lg">Map</h3>
-        <input type="text" v-model="mapSearch" placeholder="Maps filtern..." class="border-b-2 px-2 py-1 w-full mb-2 bg-orange-700">
-        <select class="border-b px-2 py-1 w-full bg-orange-700" type="number" v-model.number="set.MapID" @change="mapSearch=''">
+        <input type="text" v-model="mapSearch" placeholder="Maps filtern..." class="border-b-2 px-2 py-1 w-full mb-2 bg-neutral-700">
+        <select class="border-b px-2 py-1 w-full bg-neutral-700" type="number" v-model.number="set.MapID" @change="mapSearch=''">
           <option v-for="(map,i) in filteredMaps" :value="parseInt(i)">{{i}}: {{map}}</option>
         </select>
 
         <h3 class="mt-4 font-semibold text-lg">Start</h3>
         <div class="grid grid-cols-4 gap-2">
-          <label>X: <input type="number" v-model.number="set.Start.x" class="border-b px-2 py-1 w-full bg-orange-700"></label>
-          <label>Y: <input type="number" v-model.number="set.Start.y" class="border-b px-2 py-1 w-full bg-orange-700"></label>
-          <label>Z: <input type="number" v-model.number="set.Start.z" class="border-b px-2 py-1 w-full bg-orange-700"></label>
-          <label>Radius: <input type="number" v-model.number="set.Startradius" class="border-b px-2 py-1 w-full bg-orange-700"></label>
+          <label>X: <input type="number" v-model.number="set.Start.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label>Y: <input type="number" v-model.number="set.Start.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label>Z: <input type="number" v-model.number="set.Start.z" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label>Radius: <input type="number" v-model.number="set.Startradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
         </div>
 
         <h3 class="mt-4 font-semibold text-lg">Ende</h3>
         <div class="grid grid-cols-4 gap-2">
-          <label>X: <input type="number" v-model.number="set.End.x" class="border-b px-2 py-1 w-full bg-orange-700"></label>
-          <label>Y: <input type="number" v-model.number="set.End.y" class="border-b px-2 py-1 w-full bg-orange-700"></label>
-          <label>Z: <input type="number" v-model.number="set.End.z" class="border-b px-2 py-1 w-full bg-orange-700"></label>
-          <label>Radius: <input type="number" v-model.number="set.Endradius" class="border-b px-2 py-1 w-full bg-orange-700"></label>
+          <label>X: <input type="number" v-model.number="set.End.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label>Y: <input type="number" v-model.number="set.End.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label>Z: <input type="number" v-model.number="set.End.z" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label>Radius: <input type="number" v-model.number="set.Endradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
         </div>
         <h3 class="mt-4 font-semibold text-lg">Checkpoints</h3>
         <div @dragover.prevent @drop="dropCheckpoint(setName, $event)">
           <div v-for="(checkpoint, index) in set.Checkpoints" :key="index"
-              class="mt-2 p-3 rounded-lg shadow-md grid grid-cols-4 gap-2 cursor-move border-2 border-orange-700 relative"
+              class="mt-2 p-3 rounded-lg shadow-md grid grid-cols-4 gap-2 cursor-move border-2 border-neutral-700 relative"
               draggable="true"
               @dragstart="dragCheckpoint(setName, index, $event)">
-            <label class="py-2">X: <input type="number" v-model.number="checkpoint.Position.x" class="border-b px-2 py-2 w-full bg-orange-700"></label>
-            <label class="py-2">Y: <input type="number" v-model.number="checkpoint.Position.y" class="border-b px-2 py-2 w-full bg-orange-700"></label>
-            <label class="py-2">Z: <input type="number" v-model.number="checkpoint.Position.z" class="border-b px-2 py-2 w-full bg-orange-700"></label>
-            <label class="py-2">Radius: <input type="number" v-model.number="checkpoint.Radius" class="border-b px-2 py-2 w-full bg-orange-700"></label>
+            <label class="py-2">X: <input type="number" v-model.number="checkpoint.Position.x" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
+            <label class="py-2">Y: <input type="number" v-model.number="checkpoint.Position.y" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
+            <label class="py-2">Z: <input type="number" v-model.number="checkpoint.Position.z" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
+            <label class="py-2">Radius: <input type="number" v-model.number="checkpoint.Radius" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
             <button @click="removeCheckpoint(setName, index)" class="bg-red-400 text-white px-3 py-1 rounded absolute top-2 right-3">x</button>
           </div>
         </div>
