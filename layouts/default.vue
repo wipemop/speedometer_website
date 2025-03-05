@@ -3,7 +3,7 @@
       class="min-h-screen flex flex-col bg-cover bg-center"
   >
     <header class="bg-black bg-opacity-90 p-4 text-orange-600 text-center shadow-2xl">
-      <h1 class="text-4xl font-normal tracking-wider">Simple Speedometer</h1>
+      <h1 class="text-4xl font-normal">Simple Speedometer</h1>
       <sub>by Toxxa</sub>
       <a class="absolute right-5 top-5"
         href="https://github.com/wipemop/simple_speedometer">
@@ -14,7 +14,7 @@
       <NuxtPage />
     </main>
     <footer class="bg-black bg-opacity-90 p-4 text-orange-600 text-center pb-20">
-      <p class="text-sm">&copy; 2025 Toxxa</p>
+      <p class="text-sm font-extralight">&copy; 2025 Toxxa</p>
     </footer>
   </div>
 </template>
