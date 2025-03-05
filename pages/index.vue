@@ -40,7 +40,7 @@
             <img
                 src="assets/speedometer_example.jpg"
                 alt="Checkpoint Overlay Visual"
-                class="object-cover w-full h-full opacity-75"
+                class="object-cover w-full h-full opacity-100"
             />
             <!-- <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
               <span class="bg-neutral-950 text-orange-600 px-4 py-2 rounded-lg text-xl font-bold shadow-lg">
