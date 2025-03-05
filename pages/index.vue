@@ -12,12 +12,12 @@
           <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="bg-neutral-950 p-6 rounded-xl shadow-xl border-4 border-neutral-950">
               <h2 class="text-3xl">Measure Your Speed</h2>
-              <p class="mt-2">Display your velocity live in-game using different units on a fancy, lightly customizeable dial.</p>
+              <p class="mt-2">Display your velocity live in-game using one of three different units on a fancy, lightly customizeable dial.</p>
             </div>
 
             <div class="bg-neutral-950 p-6 rounded-xl shadow-xl border-4 border-neutral-950">
               <h2 class="text-3xl">Choose Your Timer</h2>
-              <p class="mt-2">Run off into the sunset with no clear end, define start and finish quickly on the fly or choose a Coordinate Set and hunt your best time!</p>
+              <p class="mt-2">Run off into the sunset with no clear end, define start and finish on the fly or choose a Coordinate Set and hunt your best time!</p>
             </div>
           </div>
 
