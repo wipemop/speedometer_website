@@ -42,10 +42,10 @@
               class="mt-2 p-3 rounded-lg shadow-md grid grid-cols-4 gap-2 cursor-move border-2 border-neutral-700 relative"
               draggable="true"
               @dragstart="dragCheckpoint(setName, index, $event)">
-            <label class="py-2">X: <input type="number" v-model.number="checkpoint.Position.x" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
-            <label class="py-2">Y: <input type="number" v-model.number="checkpoint.Position.y" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
-            <label class="py-2">Z: <input type="number" v-model.number="checkpoint.Position.z" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
-            <label class="py-2">Radius: <input type="number" v-model.number="checkpoint.Radius" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
+            <label class="py-2"><span class="text-orange-900">X: </span><input type="number" v-model.number="checkpoint.Position.x" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
+            <label class="py-2"><span class="text-orange-900">Y: </span><input type="number" v-model.number="checkpoint.Position.y" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
+            <label class="py-2"><span class="text-orange-900">Z: </span><input type="number" v-model.number="checkpoint.Position.z" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
+            <label class="py-2"><span class="text-orange-900">Radius: </span><input type="number" v-model.number="checkpoint.Radius" class="border-b px-2 py-2 w-full bg-neutral-700"></label>
             <button @click="removeCheckpoint(setName, index)" class="bg-red-400 text-white px-3 py-1 rounded absolute top-2 right-3">x</button>
           </div>
         </div>
