@@ -56,7 +56,7 @@
         <div class="bg-neutral-950 bg-opacity-90 p-8 rounded-lg shadow-lg inline-block">
           <h2 class="text-3xl font-bold text-orange-600 mb-4">Easy Installation</h2>
           <p class="text-orange-600 mb-4">
-            Get the Simple Speeodmeter directly in-game via the Nexus AddOn Library or download it manually from my GitHub-Repository.
+            Get the Simple Speedometer directly in-game via the Nexus AddOn Library or download it manually from my GitHub-Repository.
           </p>
           <a class="bg-orange-600 text-white font-bold py-2 px-4 rounded hover:bg-gray-200 transition duration-300"
           href="https://github.com/wipemop/simple_speedometer">
