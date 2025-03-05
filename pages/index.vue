@@ -11,28 +11,28 @@
         <div class="container mx-auto px-4 py-12 text-center">
           <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="bg-neutral-950 p-6 rounded-xl shadow-xl border-4 border-neutral-950">
-              <h2 class="text-3xl">Track Your Speed</h2>
-              <p class="mt-2">Analyze your movement and improve your times in races, puzzles, and flight challenges.</p>
+              <h2 class="text-3xl">Measure Your Speed</h2>
+              <p class="mt-2">Display your velocity live in-game using different units on a fancy, lightly customizeable dial.</p>
             </div>
 
             <div class="bg-gray-900 p-6 rounded-xl shadow-xl border-4 border-gray-900">
-              <h2 class="text-3xl">Custom Tracks</h2>
-              <p class="mt-2">Define start & endpoints, set checkpoints, and measure your best runs!</p>
+              <h2 class="text-3xl">Choose Your Timer</h2>
+              <p class="mt-2">Run off into the sunset with no clear end, define start and finish quickly on the fly or choose a Coordinate Set and hunt your best time!</p>
             </div>
           </div>
 
-          <div class="mt-12">
+          <!-- <div class="mt-12">
             <a href="https://github.com/wipemop/simple_speedometer" class="px-8 py-4 bg-red-600 text-white text-xl rounded-lg shadow-lg hover:bg-red-700">Download Now</a>
-          </div>
+          </div> -->
         </div>
       </div>
 
       <!-- Online Configuration Tool Section -->
       <section class="bg-gray-900 bg-opacity-90 p-8 rounded-lg shadow-lg">
-        <h2 class="text-3xl font-bold text-orange-600 mb-4">Custom Track Configuration</h2>
+        <h2 class="text-3xl font-bold text-orange-600 mb-4">Setup and share your own Coordinate Sets</h2>
         <p class="text-orange-600 mb-4">
-          Easily set up your custom tracks by defining start and endpoint locations, plus all the essential checkpoints you must hit.
-          Visualize your checkpoints with an in-game overlay look to maximize your training.
+          Easily set up your own Coordinate Sets by defining start, checkpoint and finish coordinates. Share your Sets with others and compete with your peers!
+          Display your selected Set ingame accurate to perspective as an overlay.
         </p>
         <div class="mt-6">
           <!-- Visual Overlay Simulation -->
@@ -56,11 +56,11 @@
         <div class="bg-gray-900 bg-opacity-90 p-8 rounded-lg shadow-lg inline-block">
           <h2 class="text-3xl font-bold text-yellow-300 mb-4">Easy Installation</h2>
           <p class="text-orange-600 mb-4">
-            Install quickly via the Nexus Plugin Loader and get racing in minutes.
+            Get the Simple Speeodmeter directly in-game via the Nexus AddOn Library or download it manually from my GitHub-Repository.
           </p>
           <a class="bg-red-600 text-yellow-300 font-bold py-2 px-4 rounded hover:bg-gray-200 transition duration-300"
           href="https://github.com/wipemop/simple_speedometer">
-            Get Started Now
+            Simple Speedometer on GitHub
           </a>
         </div>
       </section>
