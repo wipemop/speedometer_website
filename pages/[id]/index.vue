@@ -4,7 +4,7 @@
       Loading
     </div>
     <div v-for="(set, setName) in config.Sets" :key="setName" class="" v-else>
-      <div class="flex items-center justify-between border-b-2 border-neutral-850 bg-neutral-950 px-20">
+      <div class="flex items-center justify-between border-b-2 border-orange-700 bg-neutral-950 px-20">
         <input @input="updateSetName(setName, $event.target.value)" class="text-xl font-semibold border-b w-full m-2 p-2 text-white bg-orange-700 max-w-[400px]" :value="setName"
         placeholder="Set name">
         <div>
