@@ -4,7 +4,7 @@
   >
     <header class="bg-orange-600 bg-opacity-90 p-4 text-white text-center shadow-2xl">
       <h1 class="text-4xl font-extrabold tracking-wider">Simple Speedometer</h1>
-      <sub>by wipemop</sub>
+      <sub>by Toxxa</sub>
       <a class="absolute right-5 top-5"
         href="https://github.com/wipemop/simple_speedometer">
           <img src="assets/github-mark.svg" class="max-h-[40px]">
@@ -14,7 +14,7 @@
       <NuxtPage />
     </main>
     <footer class="bg-orange-600 bg-opacity-90 p-4 text-white text-center pb-20">
-      <p class="text-sm">&copy; 2025 wipemop</p>
+      <p class="text-sm">&copy; 2025 Toxxa</p>
     </footer>
   </div>
 </template>
@@ -34,5 +34,6 @@ useHead({
 /* If your Tailwind config does not already include the Bangers font, add a custom class */
 body {
   font-family: "Bangers", system-ui;
+  letter-spacing: 0.025em;
 }
 </style>
