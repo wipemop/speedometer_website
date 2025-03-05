@@ -23,18 +23,18 @@
 
         <h3 class="mt-4 font-semibold text-orange-600 text-lg">Start location:</h3>
         <div class="grid grid-cols-4 gap-2">
-          <label><span class="text-orange-700">X: </span><input type="number" v-model.number="set.Start.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
-          <label><span class="text-orange-800">Y: </span><input type="number" v-model.number="set.Start.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label><span class="text-orange-900">X: </span><input type="number" v-model.number="set.Start.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label><span class="text-orange-900">Y: </span><input type="number" v-model.number="set.Start.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
           <label><span class="text-orange-900">Z: </span><input type="number" v-model.number="set.Start.z" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
-          <label>Radius: <input type="number" v-model.number="set.Startradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label><span class="text-orange-900">Radius: </span><input type="number" v-model.number="set.Startradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
         </div>
 
         <h3 class="mt-4 font-semibold text-orange-600 text-lg">Finish location:</h3>
         <div class="grid grid-cols-4 gap-2">
-          <label>X: <input type="number" v-model.number="set.End.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
-          <label>Y: <input type="number" v-model.number="set.End.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
-          <label>Z: <input type="number" v-model.number="set.End.z" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
-          <label>Radius: <input type="number" v-model.number="set.Endradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label><span class="text-orange-900">X: </span><input type="number" v-model.number="set.End.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label><span class="text-orange-900">Y: </span><input type="number" v-model.number="set.End.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label><span class="text-orange-900">Z: </span><input type="number" v-model.number="set.End.z" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label><span class="text-orange-900">Radius: </span><input type="number" v-model.number="set.Endradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
         </div>
         <h3 class="mt-4 font-semibold text-orange-600 text-lg">Checkpoint locations:</h3>
         <div @dragover.prevent @drop="dropCheckpoint(setName, $event)">
