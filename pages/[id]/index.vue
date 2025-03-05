@@ -23,7 +23,7 @@
 
         <h3 class="mt-4 font-semibold text-orange-600 text-lg">Start location:</h3>
         <div class="grid grid-cols-4 gap-2">
-          <label>X: <input type="number" v-model.number="set.Start.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label><span class="text-orange-600">X: </span><input type="number" v-model.number="set.Start.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
           <label>Y: <input type="number" v-model.number="set.Start.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
           <label>Z: <input type="number" v-model.number="set.Start.z" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
           <label>Radius: <input type="number" v-model.number="set.Startradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
