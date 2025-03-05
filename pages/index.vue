@@ -38,7 +38,7 @@
           <!-- Visual Overlay Simulation -->
           <div class="relative w-full h-64 bg-gray-300 rounded-lg overflow-hidden">
             <img
-                src="assets/image.png"
+                src="assets/speedometer_example.jpg"
                 alt="Checkpoint Overlay Visual"
                 class="object-cover w-full h-full opacity-75"
             />
