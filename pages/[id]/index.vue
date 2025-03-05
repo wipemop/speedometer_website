@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <div class="fixed w-full bottom-0 p-5 bg-orange-800 text-center">
+    <div class="fixed w-full bottom-0 p-5 bg-neutral-900 text-center">
       <button @click="addSet" class="bg-green-700 text-white px-4 py-2 rounded mr-3">Add another set</button>
       <button @click="saveConfig" class="bg-orange-500 text-white px-4 py-2 rounded">Save Config</button>
     </div>
