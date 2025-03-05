@@ -4,7 +4,7 @@
       Loading
     </div>
     <div v-for="(set, setName) in config.Sets" :key="setName" class="" v-else>
-      <div class="flex items-center justify-between border-b-2 border-orange-700 bg-orange-800 px-20">
+      <div class="flex items-center justify-between border-b-2 bg-neutral-850 bg-neutral-950 px-20">
         <input @input="updateSetName(setName, $event.target.value)" class="text-xl font-semibold border-b w-full m-2 p-2 text-white bg-orange-700 max-w-[400px]" :value="setName"
         placeholder="Set name">
         <div>
@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <div class="fixed w-full bottom-0 p-5 bg-orange-800 text-center">
+    <div class="fixed w-full bottom-0 p-5 bg-neutral-950 text-center">
       <button @click="addSet" class="bg-green-700 text-white px-4 py-2 rounded mr-3">Add another set</button>
       <button @click="saveConfig" class="bg-orange-500 text-white px-4 py-2 rounded">Save Config</button>
     </div>
