@@ -24,7 +24,7 @@ useHead({
   link: [
     {rel: "preconnect", href: "https://fonts.googleapis.com"},
     {rel: "preconnect", href: "https://fonts.googleapis.com", crossorigin: true},
-    {rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Bangers&display=swap"},
+    {rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Peralta&display=swap"},
   ]
 })
 </script>
@@ -33,7 +33,7 @@ useHead({
 
 /* If your Tailwind config does not already include the Bangers font, add a custom class */
 body {
-  font-family: "Bangers", system-ui;
-  letter-spacing: 0.10em;
+  font-family: "Peralta", system-ui;
+  letter-spacing: 0.025em;
 }
 </style>
