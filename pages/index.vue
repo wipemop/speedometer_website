@@ -1,16 +1,16 @@
 <template>
   <div
-      class="bg-orange-600 bg-opacity-90  min-h-screen flex flex-col bg-cover bg-center"
+      class="bg-black bg-opacity-90  min-h-screen flex flex-col bg-cover bg-center"
       style="background-image: url('assets/image.png')"
   >
     <!-- Header Section -->
     <!-- Main Content -->
     <main class="flex-grow container mx-auto px-4 py-12 space-y-12">
       <!-- Speed Insights Section -->
-      <div class="bg-orange-600 text-yellow-300 font-bold">
+      <div class="bg-black text-orange-600 font-bold">
         <div class="container mx-auto px-4 py-12 text-center">
           <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-gray-700 p-6 rounded-xl shadow-xl border-4 border-gray-700">
+            <div class="bg-gray-900 p-6 rounded-xl shadow-xl border-4 border-gray-900">
               <h2 class="text-3xl">Track Your Speed</h2>
               <p class="mt-2">Analyze your movement and improve your times in races, puzzles, and flight challenges.</p>
             </div>
@@ -28,9 +28,9 @@
       </div>
 
       <!-- Online Configuration Tool Section -->
-      <section class="bg-orange-700 bg-opacity-90 p-8 rounded-lg shadow-lg">
-        <h2 class="text-3xl font-bold text-yellow-300 mb-4">Custom Track Configuration</h2>
-        <p class="text-yellow-300 mb-4">
+      <section class="bg-gray-900 bg-opacity-90 p-8 rounded-lg shadow-lg">
+        <h2 class="text-3xl font-bold text-orange-600 mb-4">Custom Track Configuration</h2>
+        <p class="text-orange-600 mb-4">
           Easily set up your custom tracks by defining start and endpoint locations, plus all the essential checkpoints you must hit.
           Visualize your checkpoints with an in-game overlay look to maximize your training.
         </p>
@@ -53,9 +53,9 @@
 
       <!-- Installation Section -->
       <section class="text-center">
-        <div class="bg-orange-700 bg-opacity-90 p-8 rounded-lg shadow-lg inline-block">
+        <div class="bg-gray-900 bg-opacity-90 p-8 rounded-lg shadow-lg inline-block">
           <h2 class="text-3xl font-bold text-yellow-300 mb-4">Easy Installation</h2>
-          <p class="text-yellow-300 mb-4">
+          <p class="text-orange-600 mb-4">
             Install quickly via the Nexus Plugin Loader and get racing in minutes.
           </p>
           <a class="bg-red-600 text-yellow-300 font-bold py-2 px-4 rounded hover:bg-gray-200 transition duration-300"
