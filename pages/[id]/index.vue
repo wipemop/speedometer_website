@@ -4,8 +4,8 @@
       Loading
     </div>
     <div v-for="(set, setName) in config.Sets" :key="setName" class="" v-else>
-      <div class="flex items-center justify-between border-b-2 border-neutral-900 bg-neutral-950 px-20">
-        <input @input="updateSetName(setName, $event.target.value)" class="text-xl font-semibold border-b w-full m-2 p-2 text-white bg-orange-700 max-w-[400px]" :value="setName"
+      <div class="flex items-center justify-between border-b-2 border-neutral-700 bg-neutral-950 px-20">
+        <input @input="updateSetName(setName, $event.target.value)" class="text-xl font-semibold border-b w-full m-2 p-2 text-white bg-orange-700 max-w-[500px]" :value="setName"
         placeholder="Set name">
         <div>
           <button @click="removeSet(setName)" class="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-400 mr-2">🗑</button>
@@ -14,7 +14,7 @@
         </div>
       </div>
 
-      <div v-if="expanded === set" class="bg-orange-900  p-5">
+      <div v-if="expanded === set" class="bg-neutral-850  p-5">
         <h3 class="mt-4 font-semibold text-lg">Map</h3>
         <input type="text" v-model="mapSearch" placeholder="Maps filtern..." class="border-b-2 px-2 py-1 w-full mb-2 bg-orange-700">
         <select class="border-b px-2 py-1 w-full bg-orange-700" type="number" v-model.number="set.MapID" @change="mapSearch=''">
@@ -55,12 +55,12 @@
       </div>
     </div>
 
-    <div class="fixed w-full bottom-0 p-5 bg-neutral-950 text-center">
+    <div class="fixed w-full bottom-0 p-5 bg-neutral-850 text-center">
       <button @click="addSet" class="bg-green-700 text-white px-4 py-2 rounded mr-3">Add another set</button>
       <button @click="saveConfig" class="bg-orange-500 text-white px-4 py-2 rounded">Save Config</button>
     </div>
   </div>
-  <div class="fixed top-4 right-4 bg-orange-900 text-white px-4 py-2 rounded shadow-lg max-w-1/3" v-if="toast"
+  <div class="fixed top-4 right-4 bg-neutral-900 text-white px-4 py-2 rounded shadow-lg max-w-1/3" v-if="toast"
     :class="{
       'border-b-4 border-green-200': toast.type === 'SUCCESS',
       'border-b-4 border-red-200': toast.type === 'ERROR',
