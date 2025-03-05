@@ -23,10 +23,10 @@
 
         <h3 class="mt-4 font-semibold text-orange-600 text-lg">Start location:</h3>
         <div class="grid grid-cols-4 gap-2">
-          <label class="text-orange-600">X: <input type="number" v-model.number="set.Start.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
-          <label class="text-orange-600">Y: <input type="number" v-model.number="set.Start.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
-          <label class="text-orange-600">Z: <input type="number" v-model.number="set.Start.z" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
-          <label class="text-orange-600">Radius: <input type="number" v-model.number="set.Startradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label class="text-orange-600">X: <input class="text-white" type="number" v-model.number="set.Start.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label class="text-orange-600">Y: <input class="text-white" type="number" v-model.number="set.Start.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label class="text-orange-600">Z: <input class="text-white" type="number" v-model.number="set.Start.z" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
+          <label class="text-orange-600">Radius: <input class="text-white" type="number" v-model.number="set.Startradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
         </div>
 
         <h3 class="mt-4 font-semibold text-orange-600 text-lg">Finish location:</h3>
