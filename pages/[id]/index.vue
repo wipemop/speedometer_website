@@ -15,7 +15,7 @@
       </div>
 
       <div v-if="expanded === set" class="bg-neutral-900 p-5">
-        <h3 class="mt-4 font-semibold text-lg">Map</h3>
+        <h3 class="mt-4 font-semibold text-orange-600 text-lg">Map</h3>
         <input type="text" v-model="mapSearch" placeholder="Maps filtern..." class="border-b-2 px-2 py-1 w-full mb-2 bg-neutral-700">
         <select class="border-b px-2 py-1 w-full bg-neutral-700" type="number" v-model.number="set.MapID" @change="mapSearch=''">
           <option v-for="(map,i) in filteredMaps" :value="parseInt(i)">{{i}}: {{map}}</option>
