@@ -2,7 +2,7 @@
   <div
       class="min-h-screen flex flex-col bg-cover bg-center"
   >
-    <header class="bg-black-600 bg-opacity-90 p-4 text-white text-center shadow-2xl">
+    <header class="bg-orange-600 bg-opacity-90 p-4 text-white text-center shadow-2xl">
       <h1 class="text-4xl font-extrabold tracking-wider">Simple Speedometer</h1>
       <sub>by Toxxa</sub>
       <a class="absolute right-5 top-5"
@@ -13,7 +13,7 @@
     <main class="flex-grow">
       <NuxtPage />
     </main>
-    <footer class="bg-black-600 bg-opacity-90 p-4 text-white text-center pb-20">
+    <footer class="bg-orange-600 bg-opacity-90 p-4 text-white text-center pb-20">
       <p class="text-sm">&copy; 2025 Toxxa</p>
     </footer>
   </div>
