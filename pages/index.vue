@@ -42,11 +42,11 @@
                 alt="Checkpoint Overlay Visual"
                 class="object-cover w-full h-full opacity-75"
             />
-            <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+            <!-- <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
               <span class="bg-neutral-950 text-orange-600 px-4 py-2 rounded-lg text-xl font-bold shadow-lg">
                 In-Game Overlay
               </span>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -54,7 +54,7 @@
       <!-- Installation Section -->
       <section class="text-center">
         <div class="bg-neutral-950 bg-opacity-90 p-8 rounded-lg shadow-lg inline-block">
-          <h2 class="text-3xl font-bold text-yellow-300 mb-4">Easy Installation</h2>
+          <h2 class="text-3xl font-bold text-orange-600 mb-4">Easy Installation</h2>
           <p class="text-orange-600 mb-4">
             Get the Simple Speeodmeter directly in-game via the Nexus AddOn Library or download it manually from my GitHub-Repository.
           </p>
