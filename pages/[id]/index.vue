@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen text-white bg-orange-700">
+  <div class="min-h-screen text-white bg-green-700">
     <div v-if="loading">
       Loading
     </div>
