@@ -10,12 +10,12 @@
       <div class="bg-orange-600 text-yellow-300 font-bold">
         <div class="container mx-auto px-4 py-12 text-center">
           <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-orange-700 p-6 rounded-xl shadow-xl border-4 border-orange-700">
+            <div class="bg-green-700 p-6 rounded-xl shadow-xl border-4 border-green-700">
               <h2 class="text-3xl">Track Your Speed</h2>
               <p class="mt-2">Analyze your movement and improve your times in races, puzzles, and flight challenges.</p>
             </div>
 
-            <div class="bg-orange-700 p-6 rounded-xl shadow-xl border-4 border-orange-700">
+            <div class="bg-green-700 p-6 rounded-xl shadow-xl border-4 border-green-700">
               <h2 class="text-3xl">Custom Tracks</h2>
               <p class="mt-2">Define start & endpoints, set checkpoints, and measure your best runs!</p>
             </div>
