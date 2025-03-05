@@ -55,12 +55,12 @@
       </div>
     </div>
 
-    <div class="fixed w-full bottom-0 p-5 bg-neutral-850 text-center">
+    <div class="fixed w-full bottom-0 p-5 bg-orange-800 text-center">
       <button @click="addSet" class="bg-green-700 text-white px-4 py-2 rounded mr-3">Add another set</button>
       <button @click="saveConfig" class="bg-orange-500 text-white px-4 py-2 rounded">Save Config</button>
     </div>
   </div>
-  <div class="fixed top-4 right-4 bg-neutral-900 text-white px-4 py-2 rounded shadow-lg max-w-1/3" v-if="toast"
+  <div class="fixed top-4 right-4 bg-orange-900 text-white px-4 py-2 rounded shadow-lg max-w-1/3" v-if="toast"
     :class="{
       'border-b-4 border-green-200': toast.type === 'SUCCESS',
       'border-b-4 border-red-200': toast.type === 'ERROR',
