@@ -15,13 +15,13 @@
       </div>
 
       <div v-if="expanded === set" class="bg-neutral-900 p-5">
-        <h3 class="mt-4 font-semibold text-orange-600 text-lg">Map</h3>
+        <h3 class="mt-4 font-semibold text-orange-600 text-lg">Map:</h3>
         <input type="text" v-model="mapSearch" placeholder="Maps filtern..." class="border-b-2 px-2 py-1 w-full mb-2 bg-neutral-700">
         <select class="border-b px-2 py-1 w-full bg-neutral-700" type="number" v-model.number="set.MapID" @change="mapSearch=''">
           <option v-for="(map,i) in filteredMaps" :value="parseInt(i)">{{i}}: {{map}}</option>
         </select>
 
-        <h3 class="mt-4 font-semibold text-lg">Start</h3>
+        <h3 class="mt-4 font-semibold text-orange-600 text-lg">Start location:</h3>
         <div class="grid grid-cols-4 gap-2">
           <label>X: <input type="number" v-model.number="set.Start.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
           <label>Y: <input type="number" v-model.number="set.Start.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
@@ -29,14 +29,14 @@
           <label>Radius: <input type="number" v-model.number="set.Startradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
         </div>
 
-        <h3 class="mt-4 font-semibold text-lg">Ende</h3>
+        <h3 class="mt-4 font-semibold text-orange-600 text-lg">Finish location:</h3>
         <div class="grid grid-cols-4 gap-2">
           <label>X: <input type="number" v-model.number="set.End.x" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
           <label>Y: <input type="number" v-model.number="set.End.y" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
           <label>Z: <input type="number" v-model.number="set.End.z" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
           <label>Radius: <input type="number" v-model.number="set.Endradius" class="border-b px-2 py-1 w-full bg-neutral-700"></label>
         </div>
-        <h3 class="mt-4 font-semibold text-lg">Checkpoints</h3>
+        <h3 class="mt-4 font-semibold text-orange-600 text-lg">Checkpoint locations:</h3>
         <div @dragover.prevent @drop="dropCheckpoint(setName, $event)">
           <div v-for="(checkpoint, index) in set.Checkpoints" :key="index"
               class="mt-2 p-3 rounded-lg shadow-md grid grid-cols-4 gap-2 cursor-move border-2 border-neutral-700 relative"
