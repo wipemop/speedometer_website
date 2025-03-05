@@ -15,7 +15,7 @@
               <p class="mt-2">Display your velocity live in-game using different units on a fancy, lightly customizeable dial.</p>
             </div>
 
-            <div class="bg-gray-900 p-6 rounded-xl shadow-xl border-4 border-gray-900">
+            <div class="bg-neutral-950 p-6 rounded-xl shadow-xl border-4 border-neutral-950">
               <h2 class="text-3xl">Choose Your Timer</h2>
               <p class="mt-2">Run off into the sunset with no clear end, define start and finish quickly on the fly or choose a Coordinate Set and hunt your best time!</p>
             </div>
@@ -28,10 +28,10 @@
       </div>
 
       <!-- Online Configuration Tool Section -->
-      <section class="bg-gray-900 bg-opacity-90 p-8 rounded-lg shadow-lg">
+      <section class="bg-neutral-950 bg-opacity-90 p-8 rounded-lg shadow-lg">
         <h2 class="text-3xl font-bold text-orange-600 mb-4">Setup and share your own Coordinate Sets</h2>
         <p class="text-orange-600 mb-4">
-          Easily set up your own Coordinate Sets by defining start, checkpoint and finish coordinates. Share your Sets with others and compete with your peers!
+          Set up your own Coordinate Sets by defining start, checkpoint and finish coordinates. Share your Sets with others and compete!
           Display your selected Set ingame accurate to perspective as an overlay.
         </p>
         <div class="mt-6">
@@ -43,7 +43,7 @@
                 class="object-cover w-full h-full opacity-75"
             />
             <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-              <span class="bg-red-600 text-white px-4 py-2 rounded-lg text-xl font-bold shadow-lg">
+              <span class="bg-neutral-950 text-orange-600 px-4 py-2 rounded-lg text-xl font-bold shadow-lg">
                 In-Game Overlay
               </span>
             </div>
@@ -53,12 +53,12 @@
 
       <!-- Installation Section -->
       <section class="text-center">
-        <div class="bg-gray-900 bg-opacity-90 p-8 rounded-lg shadow-lg inline-block">
+        <div class="bg-neutral-950 bg-opacity-90 p-8 rounded-lg shadow-lg inline-block">
           <h2 class="text-3xl font-bold text-yellow-300 mb-4">Easy Installation</h2>
           <p class="text-orange-600 mb-4">
             Get the Simple Speeodmeter directly in-game via the Nexus AddOn Library or download it manually from my GitHub-Repository.
           </p>
-          <a class="bg-red-600 text-yellow-300 font-bold py-2 px-4 rounded hover:bg-gray-200 transition duration-300"
+          <a class="bg-orange-600 text-white font-bold py-2 px-4 rounded hover:bg-gray-200 transition duration-300"
           href="https://github.com/wipemop/simple_speedometer">
             Simple Speedometer on GitHub
           </a>
