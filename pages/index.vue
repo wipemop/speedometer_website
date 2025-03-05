@@ -31,7 +31,7 @@
       <section class="bg-neutral-950 bg-opacity-90 p-8 rounded-lg shadow-lg">
         <h2 class="text-3xl font-bold text-orange-600 mb-4">Setup and share your own Coordinate Sets</h2>
         <p class="text-orange-600 mb-4">
-          Set up your own Coordinate Sets by defining start, checkpoint and finish coordinates. Share your Sets with others and compete!
+          Make your own Coordinate Sets by defining start, checkpoint and finish coordinates and storing them online. Share your Sets with others and compete for best times!
           Display your selected Set ingame accurate to perspective as an overlay.
         </p>
         <div class="mt-6">
