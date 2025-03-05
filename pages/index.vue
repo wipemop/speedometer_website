@@ -10,7 +10,7 @@
       <div class="bg-black text-orange-600 font-bold">
         <div class="container mx-auto px-4 py-12 text-center">
           <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-neutral-800 p-6 rounded-xl shadow-xl border-4 border-neutral-800">
+            <div class="bg-neutral-950 p-6 rounded-xl shadow-xl border-4 border-neutral-950">
               <h2 class="text-3xl">Track Your Speed</h2>
               <p class="mt-2">Analyze your movement and improve your times in races, puzzles, and flight challenges.</p>
             </div>
