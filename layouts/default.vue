@@ -34,6 +34,6 @@ useHead({
 /* If your Tailwind config does not already include the Bangers font, add a custom class */
 body {
   font-family: "Bangers", system-ui;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.05em;
 }
 </style>
